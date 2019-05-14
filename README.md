@@ -14,11 +14,11 @@
 </p>
 
 
-# Create and deploy a basic Go Gin application
+# Create and deploy a basic Node.js application
 
-> We have similar applications available for [Node.js](https://github.com/IBM/nodejs-starter), [Java Spring](https://github.com/IBM/spring-starter), [Swift](https://github.com/IBM/swift-starter), [Python Flask](https://github.com/IBM/flask-starter), and [Java Liberty](https://github.com/IBM/java-liberty-starter).
+> We have similar applications available for [Go](https://github.com/IBM/go-starter), [Java Spring](https://github.com/IBM/spring-starter), [Swift](https://github.com/IBM/swift-starter), [Python Flask](https://github.com/IBM/flask-starter), and [Java Liberty](https://github.com/IBM/java-liberty-starter).
 
-In this sample application, you will create a basic web application using Gin to serve web pages in Go, complete with standard best practices, including a health check and application metric monitoring.
+In this sample application, you will create a basic web application using Express to serve web pages in Node.js, complete with standard best practices, including a health check and application metric monitoring.
 
 
 ## Steps
@@ -39,8 +39,6 @@ Use the button above to deploy this same application to IBM Cloud.  This option 
 ### Building Locally
 
 To get started building this application locally, you can either run the application natively or use the IBM Cloud Developer Tools for containerization and easy deployment to IBM Cloud.
-
-All of your `dep` dependencies are stored inside of `Gopkg.toml`.
 
 #### Native Application Development
 
